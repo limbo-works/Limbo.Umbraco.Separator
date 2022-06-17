@@ -1,0 +1,9 @@
+﻿[
+  {
+    "outputFile": "App_Plugins/Limbo.Umbraco.Separator/Styles/Default.css",
+    "inputFile": "App_Plugins/Limbo.Umbraco.Separator/Styles/Default.less",
+    "minify": {
+      "enabled": false
+    }
+  }
+]
