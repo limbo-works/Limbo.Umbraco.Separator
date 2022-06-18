@@ -1,26 +1,41 @@
-# Skybrud.Separator
+# Limbo Separator
 
-Skybrud.Separator is a small package for Umbraco that adds a property editor serving as a separator to give a better overview of properties within your Umbraco content types.
+Limbo Separator is a small package for Umbraco that adds a property editor serving as a separator to give a better overview of properties within your Umbraco content types.
+
+<table>
+  <tr>
+    <td><strong>License:</strong></td>
+    <td><a href="./LICENSE.md"><strong>MIT License</strong></a></td>
+  </tr>
+  <tr>
+    <td><strong>Umbraco:</strong></td>
+    <td>v10</td>
+  </tr>
+  <tr>
+    <td><strong>Target Framework:</strong></td>
+    <td>.NET 6</td>
+  </tr>
+</table>
+
+<br /><br />
 
 ## Installation
 
-The Umbraco 9 version of this package is only available via NuGet. To install the package, you can use either .NET CLI:
+The package only supports Umbraco 10. To install the package, you can use either .NET CLI:
 
 ```
-dotnet add package Skybrud.Separator --version 2.0.0
+dotnet add package Limbo.Umbraco.Separator --version 1.0.0
 ```
 
-or the older NuGet Package Manager:
+or the NuGet Package Manager:
 
 ```
-Install-Package Skybrud.Separator -Version 2.0.0
+Install-Package Limbo.Umbraco.Separator -Version 1.0.0
 ```
 
-**Umbraco 8**  
-For the Umbraco 8 version of this package, see the [**v1/main**](https://github.com/skybrud/Skybrud.Separator/tree/v1/main) branch instead.
+For previous versions of Umbraco, see either our older [**Skybrud.Separator**](https://github.com/skybrud/Skybrud.Separator) package (for Umbraco 8 and 9), or the [**CM.Seperator**](https://www.nuget.org/packages/CM.Seperator) package by [Rasmus Fjord](https://twitter.com/rasmusfjord?lang=da) (for Umbraco 7).
 
-**Umbraco 7**  
-This package is not available for Umbraco 7. See [**CM.Seperator**](https://www.nuget.org/packages/CM.Seperator) as an alternative.
+<br /><br />
 
 ## Screenshots
 
@@ -28,6 +43,5 @@ The separator property editor helps group similar properties within an existing 
 
 ![image](https://user-images.githubusercontent.com/3634580/84443532-1812ef80-ac40-11ea-8077-515c48015070.png)
 
-
-[NuGetPackage]: https://www.nuget.org/packages/Skybrud.Separator
-[GitHubRelease]: https://github.com/skybrud/Skybrud.Separator/releases
+[NuGetPackage]: https://www.nuget.org/packages/Limbo.Umbraco.Separator
+[GitHubRelease]: https://github.com/limbo-works/Limbo.Umbraco.Separator/releases
