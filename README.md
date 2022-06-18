@@ -19,6 +19,14 @@ Limbo Separator is a small package for Umbraco that adds a property editor servi
 
 <br /><br />
 
+## Contents
+
+- [Installation](#installation)
+- [Screenshots](#screenshots)
+- [Documentation](#documentation)
+
+<br /><br />
+
 ## Installation
 
 The package only supports Umbraco 10. To install the package, you can use either .NET CLI:
