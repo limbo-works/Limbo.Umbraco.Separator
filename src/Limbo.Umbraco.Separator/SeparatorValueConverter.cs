@@ -29,7 +29,7 @@ namespace Limbo.Umbraco.Separator {
         }
 
         public override PropertyCacheLevel GetPropertyCacheLevel(IPublishedPropertyType propertyType) {
-            return PropertyCacheLevel.Elements;
+            return PropertyCacheLevel.Element;
         }
 
     }
