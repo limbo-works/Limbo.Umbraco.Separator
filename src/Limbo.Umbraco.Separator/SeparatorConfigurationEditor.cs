@@ -3,7 +3,7 @@ using Umbraco.Cms.Core.PropertyEditors;
 using Umbraco.Cms.Core.Services;
 
 namespace Limbo.Umbraco.Separator {
-    
+
     /// <summary>
     /// Represents the configuration editor for a <see cref="SeparatorDataEditor"/>.
     /// </summary>

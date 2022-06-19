@@ -11,7 +11,7 @@ namespace Limbo.Umbraco.Separator {
     /// </summary>
     [DataEditor(EditorAlias, EditorType.PropertyValue, "Limbo Separator", EditorView, Group = "Limbo", Icon = "icon-navigation-horizontal color-limbo", HideLabel = true)]
     public class SeparatorDataEditor : DataEditor {
-        
+
         private readonly IIOHelper _ioHelper;
         private readonly IEditorConfigurationParser _editorConfigurationParser;
 

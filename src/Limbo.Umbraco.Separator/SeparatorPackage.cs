@@ -37,7 +37,7 @@ namespace Limbo.Umbraco.Separator {
         /// Gets the URL of the issue tracker for this package.
         /// </summary>
         public const string IssuesUrl = "https://github.com/limbo-works/Limbo.Umbraco.Separator/issues";
-        
+
         /// <summary>
         /// Gets the URL of the documentation for this package.
         /// </summary>

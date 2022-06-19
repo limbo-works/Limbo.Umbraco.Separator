@@ -1,5 +1,5 @@
 ﻿namespace Limbo.Umbraco.Separator {
-    
+
     /// <summary>
     /// Class representing a separator property value.
     /// </summary>

@@ -3,11 +3,11 @@
 #pragma warning disable CS1591
 
 namespace Limbo.Umbraco.Separator {
-    
+
     public class SeparatorAssetFile : IAssetFile {
-        
+
         public string FilePath { get; set; }
-        
+
         public AssetType DependencyType => AssetType.Css;
 
         public SeparatorAssetFile() {
