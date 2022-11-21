@@ -9,7 +9,7 @@ Limbo Separator is a small package for Umbraco that adds a property editor servi
   </tr>
   <tr>
     <td><strong>Umbraco:</strong></td>
-    <td>v10</td>
+    <td>Umbraco 10 + Umbraco 11</td>
   </tr>
   <tr>
     <td><strong>Target Framework:</strong></td>
@@ -32,13 +32,13 @@ Limbo Separator is a small package for Umbraco that adds a property editor servi
 The package only supports Umbraco 10. To install the package, you can use either .NET CLI:
 
 ```
-dotnet add package Limbo.Umbraco.Separator --version 1.0.0
+dotnet add package Limbo.Umbraco.Separator --version 1.0.1
 ```
 
 or the NuGet Package Manager:
 
 ```
-Install-Package Limbo.Umbraco.Separator -Version 1.0.0
+Install-Package Limbo.Umbraco.Separator -Version 1.0.1
 ```
 
 For previous versions of Umbraco, see either our older [**Skybrud.Separator**](https://github.com/skybrud/Skybrud.Separator) package (for Umbraco 8 and 9), or the [**CM.Seperator**](https://www.nuget.org/packages/CM.Seperator) package by [Rasmus Fjord](https://twitter.com/rasmusfjord?lang=da) (for Umbraco 7).
