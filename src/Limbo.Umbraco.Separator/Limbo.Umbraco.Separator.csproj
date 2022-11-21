@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <ContentTargetFolders>content</ContentTargetFolders>
+    <StaticWebAssetBasePath>App_Plugins/$(AssemblyName)</StaticWebAssetBasePath>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -35,15 +35,10 @@
 
   <!-- Include backoffice assets -->
   <ItemGroup>
-    <Content Include="App_Plugins\Limbo.Umbraco.Separator\**\*.html" />
-    <Content Include="App_Plugins\Limbo.Umbraco.Separator\Styles\Default.css">
+    <Content Include="wwwroot\**\*.html" />
+    <Content Include="wwwroot\Styles\Default.css">
       <DependentUpon>Default.less</DependentUpon>
     </Content>
-  </ItemGroup>
-
-  <!-- Include the targets file -->
-  <ItemGroup>
-    <Content Include="../build/$(AssemblyName).targets" PackagePath="build\$(AssemblyName).targets" />
   </ItemGroup>
 
   <!-- Include package icon for NuGet -->
