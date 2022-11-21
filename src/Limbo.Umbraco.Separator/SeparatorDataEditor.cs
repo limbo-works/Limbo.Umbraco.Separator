@@ -17,9 +17,9 @@ namespace Limbo.Umbraco.Separator {
 
         #region Constants
 
-        internal const string EditorAlias = "Limbo.Umbraco.Separator";
+        public const string EditorAlias = "Limbo.Umbraco.Separator";
 
-        internal const string EditorView = "/App_plugins/Limbo.Umbraco.Separator/Views/Separator.html";
+        public const string EditorView = "/App_plugins/Limbo.Umbraco.Separator/Views/Separator.html";
 
         #endregion
 
