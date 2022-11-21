@@ -36,6 +36,8 @@
 
   <!-- Include backoffice assets -->
   <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+    <Content Remove="wwwroot\**\*" />
     <Content Include="wwwroot\**\*.html" />
     <Content Include="wwwroot\Styles\Default.css">
       <DependentUpon>Default.less</DependentUpon>
