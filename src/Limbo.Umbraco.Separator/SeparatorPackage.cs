@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using Umbraco.Cms.Core.Semver;
 
 namespace Limbo.Umbraco.Separator {
@@ -24,9 +25,14 @@ namespace Limbo.Umbraco.Separator {
         public static readonly Version Version = typeof(SeparatorPackage).Assembly.GetName().Version;
 
         /// <summary>
+        /// Gets the informational version of the package.
+        /// </summary>
+        public static readonly string InformationalVersion = FileVersionInfo.GetVersionInfo(typeof(SeparatorPackage).Assembly.Location).ProductVersion!;
+
+        /// <summary>
         /// Gets the semantic version of the package.
         /// </summary>
-        public static readonly SemVersion SemVersion = SemVersion.Parse(Version.ToString());
+        public static readonly SemVersion SemVersion = InformationalVersion;
 
         /// <summary>
         /// Gets the URL of the GitHub repository for this package.
@@ -39,9 +45,14 @@ namespace Limbo.Umbraco.Separator {
         public const string IssuesUrl = "https://github.com/limbo-works/Limbo.Umbraco.Separator/issues";
 
         /// <summary>
+        /// Gets the website URL of the package.
+        /// </summary>
+        public const string WebsiteUrl = "https://packages.limbo.works/limbo.umbraco.separator/v1/";
+
+        /// <summary>
         /// Gets the URL of the documentation for this package.
         /// </summary>
-        public const string DocumentationUrl = "https://github.com/limbo-works/Limbo.Umbraco.Separator#documentation";
+        public const string DocumentationUrl = "https://packages.limbo.works/limbo.umbraco.separator/v1/docs/";
 
     }
 

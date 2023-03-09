@@ -9,7 +9,7 @@ namespace Limbo.Umbraco.Separator {
 
         public void Compose(IUmbracoBuilder builder) {
 
-            builder.BackOfficeAssets().Append<SeparatorAssetFile>();
+            builder.ManifestFilters().Append<SeparatorManifestFilter>();
 
         }
 
