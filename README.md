@@ -1,7 +1,5 @@
 ---
-redirect: ./v1
+redirect: ./docs/v1
 ---
 
 # Documentation
-
-*Coming soon*
