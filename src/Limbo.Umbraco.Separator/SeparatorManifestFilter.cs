@@ -14,7 +14,7 @@ namespace Limbo.Umbraco.Separator {
                 Version = SeparatorPackage.InformationalVersion,
                 BundleOptions = BundleOptions.Independent,
                 Stylesheets = new[] {
-                    $"/App_Plugins/{SeparatorPackage.Alias}/Default.css"
+                    $"/App_Plugins/{SeparatorPackage.Alias}/Styles/Default.css"
                 }
             });
         }
