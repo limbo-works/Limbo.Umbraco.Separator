@@ -6,11 +6,11 @@ When in use, the property editor will show a title and optionally also a descrip
 
 ![image](https://user-images.githubusercontent.com/3634580/174460208-1f2f4aed-8543-4e98-8878-ea947a8a6c0a.png)
 
-## Data Type Options
+## Configuration
 
 ### CSS class name
 
-The separator data type has an optional option for entering a custom CSS class name, which can then be used to customize the styling of the separator. Eg. if you'd wish to create a separator that is more visible than the default styling.
+The separator data type has an optional setting for entering a custom CSS class name, which can then be used to customize the styling of the separator. Eg. if you'd wish to create a separator that is more visible than the default styling.
 
 ![image](https://user-images.githubusercontent.com/3634580/174460243-7740377b-fca8-470b-8da9-b32cf00fe1a2.png)
 
