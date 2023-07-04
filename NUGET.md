@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md) [![NuGet](https://img.shields.io/nuget/vpre/Limbo.Umbraco.Separator.svg)](https://www.nuget.org/packages/Limbo.Umbraco.Separator) [![NuGet](https://img.shields.io/nuget/dt/Limbo.Umbraco.Separator.svg)](https://www.nuget.org/packages/Limbo.Umbraco.Separator) [![Our Umbraco](https://img.shields.io/badge/our-umbraco-%233544B1)](https://our.umbraco.com/packages/backoffice-extensions/limbo-separator/)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md) [![NuGet](https://img.shields.io/nuget/vpre/Limbo.Umbraco.Separator.svg)](https://www.nuget.org/packages/Limbo.Umbraco.Separator) [![NuGet](https://img.shields.io/nuget/dt/Limbo.Umbraco.Separator.svg)](https://www.nuget.org/packages/Limbo.Umbraco.Separator) [![Umbraco Marketplace](https://img.shields.io/badge/umbraco-marketplace-%233544B1)](https://marketplace.umbraco.com/package/limbo.umbraco.separator)
 
 Limbo Separator is a small package for Umbraco that adds a property editor serving as a separator to give a better overview of properties within your Umbraco content types.
 
