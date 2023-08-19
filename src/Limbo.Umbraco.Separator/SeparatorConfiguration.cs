@@ -11,7 +11,7 @@ namespace Limbo.Umbraco.Separator {
         /// Gets or sets the fallback text of the textarea.
         /// </summary>
         [ConfigurationField("className", "CSS class name", "textstring", Description = "Enter a CSS class name to be used for the separator.")]
-        public string ClassName { get; set; }
+        public string? ClassName { get; set; }
 
     }
 

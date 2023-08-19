@@ -22,7 +22,7 @@ namespace Limbo.Umbraco.Separator {
         /// <summary>
         /// Gets the version of the package.
         /// </summary>
-        public static readonly Version Version = typeof(SeparatorPackage).Assembly.GetName().Version;
+        public static readonly Version Version = typeof(SeparatorPackage).Assembly.GetName().Version!;
 
         /// <summary>
         /// Gets the informational version of the package.
