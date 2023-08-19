@@ -1,4 +1,6 @@
-# Limbo Separator [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md) [![NuGet](https://img.shields.io/nuget/vpre/Limbo.Umbraco.Separator.svg)](https://www.nuget.org/packages/Limbo.Umbraco.Separator) [![NuGet](https://img.shields.io/nuget/dt/Limbo.Umbraco.Separator.svg)](https://www.nuget.org/packages/Limbo.Umbraco.Separator) [![Umbraco Marketplace](https://img.shields.io/badge/umbraco-marketplace-%233544B1)](https://marketplace.umbraco.com/package/limbo.umbraco.separator)
+# Limbo Separator
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md) [![NuGet](https://img.shields.io/nuget/vpre/Limbo.Umbraco.Separator.svg)](https://www.nuget.org/packages/Limbo.Umbraco.Separator) [![NuGet](https://img.shields.io/nuget/dt/Limbo.Umbraco.Separator.svg)](https://www.nuget.org/packages/Limbo.Umbraco.Separator) [![Umbraco Marketplace](https://img.shields.io/badge/umbraco-marketplace-%233544B1)](https://marketplace.umbraco.com/package/limbo.umbraco.separator)
 
 
 
@@ -34,13 +36,13 @@ Limbo Separator is a small package for Umbraco that adds a property editor servi
 The package only supports Umbraco 10+. To install the package, you can use either .NET CLI:
 
 ```
-dotnet add package Limbo.Umbraco.Separator --version 1.0.4
+dotnet add package Limbo.Umbraco.Separator --version 1.0.5
 ```
 
 or the NuGet Package Manager:
 
 ```
-Install-Package Limbo.Umbraco.Separator -Version 1.0.4
+Install-Package Limbo.Umbraco.Separator -Version 1.0.5
 ```
 
 For previous versions of Umbraco, see either our older [**Skybrud.Separator**](https://github.com/skybrud/Skybrud.Separator) package (for Umbraco 8 and 9), or the [**CM.Seperator**](https://www.nuget.org/packages/CM.Seperator) package by [Rasmus Fjord](https://twitter.com/rasmusfjord?lang=da) (for Umbraco 7).
