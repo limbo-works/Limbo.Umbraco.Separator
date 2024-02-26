@@ -49,11 +49,11 @@ public static class SeparatorPackage {
     /// <summary>
     /// Gets the website URL of the package.
     /// </summary>
-    public const string WebsiteUrl = "https://packages.limbo.works/limbo.umbraco.separator/v1/";
+    public const string WebsiteUrl = "https://packages.limbo.works/limbo.umbraco.separator/v13/";
 
     /// <summary>
     /// Gets the URL of the documentation for this package.
     /// </summary>
-    public const string DocumentationUrl = "https://packages.limbo.works/limbo.umbraco.separator/v1/docs/";
+    public const string DocumentationUrl = "https://packages.limbo.works/limbo.umbraco.separator/v13/docs/";
 
 }

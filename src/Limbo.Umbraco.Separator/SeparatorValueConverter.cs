@@ -20,10 +20,6 @@ public class SeparatorValueConverter : PropertyValueConverterBase {
         return new SeparatorModel();
     }
 
-    public override object? ConvertIntermediateToXPath(IPublishedElement owner, IPublishedPropertyType propertyType, PropertyCacheLevel referenceCacheLevel, object? inter, bool preview) {
-        return inter;
-    }
-
     public override Type GetPropertyValueType(IPublishedPropertyType propertyType) {
         return typeof(SeparatorModel);
     }

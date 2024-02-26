@@ -1,8 +1,9 @@
 # Limbo Separator
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md) [![NuGet](https://img.shields.io/nuget/vpre/Limbo.Umbraco.Separator.svg)](https://www.nuget.org/packages/Limbo.Umbraco.Separator) [![NuGet](https://img.shields.io/nuget/dt/Limbo.Umbraco.Separator.svg)](https://www.nuget.org/packages/Limbo.Umbraco.Separator) [![Umbraco Marketplace](https://img.shields.io/badge/umbraco-marketplace-%233544B1)](https://marketplace.umbraco.com/package/limbo.umbraco.separator)
-
-
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
+[![NuGet](https://img.shields.io/nuget/vpre/Limbo.Umbraco.Separator.svg)](https://www.nuget.org/packages/Limbo.Umbraco.Separator)
+[![NuGet](https://img.shields.io/nuget/dt/Limbo.Umbraco.Separator.svg)](https://www.nuget.org/packages/Limbo.Umbraco.Separator)
+[![Umbraco Marketplace](https://img.shields.io/badge/umbraco-marketplace-%233544B1)](https://marketplace.umbraco.com/package/limbo.umbraco.separator)
 
 Limbo Separator is a small package for Umbraco that adds a property editor serving as a separator to give a better overview of properties within your Umbraco content types.
 
@@ -13,11 +14,11 @@ Limbo Separator is a small package for Umbraco that adds a property editor servi
   </tr>
   <tr>
     <td><strong>Umbraco:</strong></td>
-    <td>Umbraco 10 + Umbraco 11 + Umbraco 12</td>
+    <td>Umbraco 13</td>
   </tr>
   <tr>
     <td><strong>Target Framework:</strong></td>
-    <td>.NET 6</td>
+    <td>.NET 8</td>
   </tr>
 </table>
 
@@ -33,17 +34,21 @@ Limbo Separator is a small package for Umbraco that adds a property editor servi
 
 ## Installation
 
-The package only supports Umbraco 10+. To install the package, you can use either .NET CLI:
+To install the package via [**NuGet**](https://www.nuget.org/packages/Limbo.Umbraco.Separator/13.0.0), you can use either .NET CLI:
 
 ```
-dotnet add package Limbo.Umbraco.Separator --version 1.0.5
+dotnet add package Limbo.Umbraco.Separator --version 13.0.0
 ```
 
 or the NuGet Package Manager:
 
 ```
-Install-Package Limbo.Umbraco.Separator -Version 1.0.5
+Install-Package Limbo.Umbraco.Separator -Version 13.0.0
 ```
+
+### Other versions of Umbraco
+
+For Umbraco 10-12, see the [**v1/main**](https://github.com/limbo-works/Limbo.Umbraco.Separator/tree/v1/main) branch.
 
 For previous versions of Umbraco, see either our older [**Skybrud.Separator**](https://github.com/skybrud/Skybrud.Separator) package (for Umbraco 8 and 9), or the [**CM.Seperator**](https://www.nuget.org/packages/CM.Seperator) package by [Rasmus Fjord](https://twitter.com/rasmusfjord?lang=da) (for Umbraco 7).
 
