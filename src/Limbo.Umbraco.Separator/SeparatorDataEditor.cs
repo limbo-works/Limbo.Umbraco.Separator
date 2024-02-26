@@ -4,41 +4,39 @@ using Umbraco.Cms.Core.Services;
 
 #pragma warning disable CS1591
 
-namespace Limbo.Umbraco.Separator {
+namespace Limbo.Umbraco.Separator;
 
-    /// <summary>
-    /// Represents a separator property editor.
-    /// </summary>
-    [DataEditor(EditorAlias, EditorType.PropertyValue, "Limbo Separator", EditorView, Group = "Limbo", Icon = "icon-navigation-horizontal color-limbo", HideLabel = true)]
-    public class SeparatorDataEditor : DataEditor {
+/// <summary>
+/// Represents a separator property editor.
+/// </summary>
+[DataEditor(EditorAlias, EditorType.PropertyValue, "Limbo Separator", EditorView, Group = "Limbo", Icon = "icon-navigation-horizontal color-limbo", HideLabel = true)]
+public class SeparatorDataEditor : DataEditor {
 
-        private readonly IIOHelper _ioHelper;
-        private readonly IEditorConfigurationParser _editorConfigurationParser;
+    private readonly IIOHelper _ioHelper;
+    private readonly IEditorConfigurationParser _editorConfigurationParser;
 
-        #region Constants
+    #region Constants
 
-        public const string EditorAlias = "Limbo.Umbraco.Separator";
+    public const string EditorAlias = "Limbo.Umbraco.Separator";
 
-        public const string EditorView = "/App_plugins/Limbo.Umbraco.Separator/Views/Separator.html";
+    public const string EditorView = "/App_plugins/Limbo.Umbraco.Separator/Views/Separator.html";
 
-        #endregion
+    #endregion
 
-        #region Constructors
+    #region Constructors
 
-        public SeparatorDataEditor(IDataValueEditorFactory dataValueEditorFactory, IIOHelper ioHelper, IEditorConfigurationParser editorConfigurationParser) : base(dataValueEditorFactory) {
-            _ioHelper = ioHelper;
-            _editorConfigurationParser = editorConfigurationParser;
-        }
-
-        #endregion
-
-        #region Member methods
-
-        /// <inheritdoc/>
-        protected override IConfigurationEditor CreateConfigurationEditor() => new SeparatorConfigurationEditor(_ioHelper, _editorConfigurationParser);
-
-        #endregion
-
+    public SeparatorDataEditor(IDataValueEditorFactory dataValueEditorFactory, IIOHelper ioHelper, IEditorConfigurationParser editorConfigurationParser) : base(dataValueEditorFactory) {
+        _ioHelper = ioHelper;
+        _editorConfigurationParser = editorConfigurationParser;
     }
+
+    #endregion
+
+    #region Member methods
+
+    /// <inheritdoc/>
+    protected override IConfigurationEditor CreateConfigurationEditor() => new SeparatorConfigurationEditor(_ioHelper, _editorConfigurationParser);
+
+    #endregion
 
 }

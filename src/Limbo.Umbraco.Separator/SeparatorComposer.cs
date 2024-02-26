@@ -3,15 +3,13 @@ using Umbraco.Cms.Core.DependencyInjection;
 
 #pragma warning disable CS1591
 
-namespace Limbo.Umbraco.Separator {
+namespace Limbo.Umbraco.Separator;
 
-    public class SeparatorComposer : IComposer {
+public class SeparatorComposer : IComposer {
 
-        public void Compose(IUmbracoBuilder builder) {
+    public void Compose(IUmbracoBuilder builder) {
 
-            builder.ManifestFilters().Append<SeparatorManifestFilter>();
-
-        }
+        builder.ManifestFilters().Append<SeparatorManifestFilter>();
 
     }
 
