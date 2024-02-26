@@ -1,4 +1,8 @@
-# Version 1
+---
+order: -13
+---
+
+# Version 13
 
 Limbo Separator is a small package for Umbraco that adds a property editor serving as a separator to give a better overview of properties within your Umbraco content types.
 
@@ -15,4 +19,4 @@ The separator property editor helps group similar properties within an existing 
 
 
 [NuGetPackage]: https://www.nuget.org/packages/Limbo.Umbraco.Separator
-[GitHubRelease]: https://github.com/limbo-works/Limbo.Umbraco.Separator/releas
+[GitHubRelease]: https://github.com/limbo-works/Limbo.Umbraco.Separator/releases

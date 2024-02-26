@@ -1,6 +1,6 @@
 # Installation
 
-The `v1.x` releases of this package targets Umbraco 10, 11 and 12. To install the package via [**NuGet**](https://www.nuget.org/packages/Limbo.Umbraco.Separator/1.0.3), you can use either .NET CLI:
+The `v1.x` releases of this package targets Umbraco 10, 11 and 12.
 
 <div class="installation" version="1">
     <p>To install the package, you can use either .NET CLI:</p>
