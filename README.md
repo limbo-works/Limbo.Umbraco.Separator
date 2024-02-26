@@ -48,9 +48,9 @@ Install-Package Limbo.Umbraco.Separator -Version 13.0.0
 
 ### Other versions of Umbraco
 
-For Umbraco 10-12, see the [**v1/main**](https://github.com/limbo-works/Limbo.Umbraco.Separator/tree/v1/main) branch.
+- For Umbraco 10-12, see the [**v1/main**](https://github.com/limbo-works/Limbo.Umbraco.Separator/tree/v1/main) branch.
 
-For previous versions of Umbraco, see either our older [**Skybrud.Separator**](https://github.com/skybrud/Skybrud.Separator) package (for Umbraco 8 and 9), or the [**CM.Seperator**](https://www.nuget.org/packages/CM.Seperator) package by [Rasmus Fjord](https://twitter.com/rasmusfjord?lang=da) (for Umbraco 7).
+- For previous versions of Umbraco, see either our older [**Skybrud.Separator**](https://github.com/skybrud/Skybrud.Separator) package (for Umbraco 8 and 9), or the [**CM.Seperator**](https://www.nuget.org/packages/CM.Seperator) package by [Rasmus Fjord](https://twitter.com/rasmusfjord) (for Umbraco 7).
 
 <br /><br />
 
