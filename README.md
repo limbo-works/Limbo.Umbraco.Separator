@@ -1,5 +1,3 @@
----
-redirect: ./docs/v1
----
+# Limbo Separator
 
-# Documentation
+{{releaseGroups}}
