@@ -9,7 +9,7 @@ namespace Limbo.Umbraco.Separator;
 public class SeparatorValueConverter : PropertyValueConverterBase {
 
     public override bool IsConverter(IPublishedPropertyType propertyType) {
-        return propertyType.EditorAlias == SeparatorDataEditor.EditorAlias;
+        return propertyType.EditorAlias == SeparatorEditor.EditorAlias;
     }
 
     public override object? ConvertSourceToIntermediate(IPublishedElement owner, IPublishedPropertyType propertyType, object? source, bool preview) {

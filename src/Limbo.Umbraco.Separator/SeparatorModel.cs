@@ -5,7 +5,7 @@
 /// </summary>
 /// <remarks>
 /// Notice that the model does not have any properties. Is main goal is that other code can
-/// check against the type - eg. so the values can be ignored in Models Builder.
+/// check against the type - e.g. so the values can be ignored in Models Builder.
 /// </remarks>
 public class SeparatorModel {
 

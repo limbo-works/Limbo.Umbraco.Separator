@@ -3,13 +3,13 @@
 <Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <StaticWebAssetBasePath>App_Plugins/$(AssemblyName)</StaticWebAssetBasePath>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <PropertyGroup>
-    <VersionPrefix>13.0.0</VersionPrefix>
+    <VersionPrefix>17.0.0-alpha000</VersionPrefix>
     <VersionSuffix Condition="'$(Configuration)'=='Debug'">build$([System.DateTime]::UtcNow.ToString(`yyyyMMddHHmm`))</VersionSuffix>
     <Company>Limbo</Company>
     <Authors>Anders Bjerner</Authors>
@@ -32,23 +32,21 @@
 
   <!-- Include NuGet dependencies -->
   <ItemGroup>
-    <PackageReference Include="Umbraco.Cms.Core" Version="[13.0.0,13.999)" />
+    <PackageReference Include="Umbraco.Cms.Core" Version="[17.0.0,17.999)" />
+    <PackageReference Include="Umbraco.Cms.Web.Website" Version="[17.0.0,17.999)" />
   </ItemGroup>
 
   <!-- Include backoffice assets -->
   <ItemGroup>
-    <Content Remove="compilerconfig.json" />
     <Content Remove="wwwroot\**\*" />
-    <Content Include="wwwroot\**\*.html" />
-    <Content Include="wwwroot\Styles\Default.css">
-      <DependentUpon>Default.less</DependentUpon>
-    </Content>
+    <Content Include="wwwroot\*.js" />
   </ItemGroup>
 
   <!-- Include package icon and README for the NuGet package -->
   <ItemGroup>
     <Content Include="../build/Limbo.png" Pack="true" PackagePath="\" />
     <None Include="..\..\NUGET.md" Pack="true" PackagePath="\" />
+    <None Include="wwwroot\Separator.js" />
   </ItemGroup>
 
   <!-- Generate XML documentation -->

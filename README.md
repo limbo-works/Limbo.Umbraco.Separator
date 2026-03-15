@@ -34,16 +34,16 @@ Limbo Separator is a small package for Umbraco that adds a property editor servi
 
 ## Installation
 
-To install the package via [**NuGet**](https://www.nuget.org/packages/Limbo.Umbraco.Separator/13.0.0), you can use either .NET CLI:
+To install the package via [**NuGet**](https://www.nuget.org/packages/Limbo.Umbraco.Separator/17.0.0), you can use either .NET CLI:
 
 ```
-dotnet add package Limbo.Umbraco.Separator --version 13.0.0
+dotnet add package Limbo.Umbraco.Separator --version 17.0.0
 ```
 
 or the NuGet Package Manager:
 
 ```
-Install-Package Limbo.Umbraco.Separator -Version 13.0.0
+Install-Package Limbo.Umbraco.Separator -Version 17.0.0
 ```
 
 ### Other versions of Umbraco
