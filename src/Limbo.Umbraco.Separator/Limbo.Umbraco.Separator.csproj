@@ -16,6 +16,7 @@
     <Copyright>Copyright © $([System.DateTime]::UtcNow.ToString(`yyyy`))</Copyright>
     <Title>Limbo Separator</Title>
     <Description>Separator property editor for Umbraco.</Description>
+    <NoWarn>NU1902;NU1903</NoWarn>
   </PropertyGroup>
 
   <!-- Information for the NuGet package -->
@@ -40,10 +41,8 @@
 
   <!-- Include NuGet dependencies -->
   <ItemGroup>
-    <!-- Ignore MimeKit vulnerability as we don't care about transient dependencies  -->
-    <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-g7hc-96xr-gvvx" />
-    <PackageReference Include="Umbraco.Cms.Core" Version="[17.0.0,17.999)" NoWarm="NU1902" />
-    <PackageReference Include="Umbraco.Cms.Web.Website" Version="[17.0.0,17.999)" NoWarm="NU1902" />
+    <PackageReference Include="Umbraco.Cms.Core" Version="[17.0.0,17.999)" />
+    <PackageReference Include="Umbraco.Cms.Web.Website" Version="[17.0.0,17.999)" />
   </ItemGroup>
 
   <!-- Include backoffice assets -->
