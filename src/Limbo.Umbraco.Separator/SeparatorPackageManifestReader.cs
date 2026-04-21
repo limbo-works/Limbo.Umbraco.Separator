@@ -46,8 +46,9 @@ public class SeparatorPackageManifestReader : IPackageManifestReader {
 
         List<PackageManifest> temp = [
             new() {
+                Id = SeparatorPackage.Alias,
                 Name = SeparatorPackage.Name,
-                AllowTelemetry = false,
+                AllowTelemetry = true,
                 Version = SeparatorPackage.InformationalVersion,
                 Extensions = extensions.ToArray()
             }
