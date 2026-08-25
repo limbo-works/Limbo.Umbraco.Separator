@@ -33,6 +33,7 @@
 
   <!-- Include additional metadata in the assembly -->
   <ItemGroup>
+    <AssemblyMetadata Include="Authors" Value="$(Authors)" />
     <AssemblyMetadata Include="PackageProjectUrl" Value="https://packages.limbo.works/limbo.umbraco.separator/" />
     <AssemblyMetadata Include="DocumentationUrl" Value="https://packages.limbo.works/limbo.umbraco.separator/docs/v17/" />
     <AssemblyMetadata Include="NuGetUrl" Value="https://www.nuget.org/packages/Limbo.Umbraco.Separator" />
@@ -45,17 +46,10 @@
     <PackageReference Include="Umbraco.Cms.Web.Website" Version="[17.0.0,17.999)" />
   </ItemGroup>
 
-  <!-- Include backoffice assets -->
-  <ItemGroup>
-    <Content Remove="wwwroot\**\*" />
-    <Content Include="wwwroot\*.js" />
-  </ItemGroup>
-
   <!-- Include package icon and README for the NuGet package -->
   <ItemGroup>
     <Content Include="../build/Limbo.png" Pack="true" PackagePath="\" />
     <None Include="..\..\NUGET.md" Pack="true" PackagePath="\" />
-    <None Include="wwwroot\Separator.js" />
   </ItemGroup>
 
   <!-- Generate XML documentation -->

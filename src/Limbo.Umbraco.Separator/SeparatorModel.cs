@@ -11,4 +11,9 @@ public class SeparatorModel {
 
     // Just a dummy model
 
+    /// <summary>
+    /// Gets a singleton instance of the <see cref="SeparatorModel"/>.
+    /// </summary>
+    public static readonly SeparatorModel Instance = new();
+
 }

@@ -17,7 +17,7 @@ public class SeparatorValueConverter : PropertyValueConverterBase {
     }
 
     public override object ConvertIntermediateToObject(IPublishedElement owner, IPublishedPropertyType propertyType, PropertyCacheLevel referenceCacheLevel, object? inter, bool preview) {
-        return new SeparatorModel();
+        return SeparatorModel.Instance;
     }
 
     public override Type GetPropertyValueType(IPublishedPropertyType propertyType) {

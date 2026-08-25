@@ -25,13 +25,13 @@ public class SeparatorPackageManifestReader : IPackageManifestReader {
                 group = "Limbo",
                 valueType = "STRING",
                 propertyEditorUids = new[] {
-                    $"{SeparatorEditor.EditorAlias}.Ui"
+                    SeparatorEditor.EditorUiAlias
                 }
             }
         });
 
         extensions.Add(new {
-            alias = $"{SeparatorEditor.EditorAlias}.Ui",
+            alias = SeparatorEditor.EditorUiAlias,
             name = "Limbo Separator UI",
             element = $"/App_Plugins/{SeparatorPackage.Alias}/Separator.js?v={cacheBuster}",
             type = "propertyEditorUi",

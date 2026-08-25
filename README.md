@@ -1,6 +1,6 @@
 # Limbo Separator
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/limbo-works/Limbo.Umbraco.Separator/blob/v17/main/LICENSE.md)
 [![NuGet](https://img.shields.io/nuget/vpre/Limbo.Umbraco.Separator.svg)](https://www.nuget.org/packages/Limbo.Umbraco.Separator)
 [![NuGet](https://img.shields.io/nuget/dt/Limbo.Umbraco.Separator.svg)](https://www.nuget.org/packages/Limbo.Umbraco.Separator)
 [![Umbraco Marketplace](https://img.shields.io/badge/umbraco-marketplace-%233544B1)](https://marketplace.umbraco.com/package/limbo.umbraco.separator)
@@ -10,7 +10,7 @@ Limbo Separator is a small package for Umbraco that adds a property editor servi
 <table>
   <tr>
     <td><strong>License:</strong></td>
-    <td><a href="./LICENSE.md"><strong>MIT License</strong></a></td>
+    <td><a href="https://github.com/limbo-works/Limbo.Umbraco.Separator/blob/v17/main/LICENSE.md"><strong>MIT License</strong></a></td>
   </tr>
   <tr>
     <td><strong>Umbraco:</strong></td>

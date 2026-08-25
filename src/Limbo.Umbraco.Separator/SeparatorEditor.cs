@@ -17,6 +17,8 @@ public class SeparatorEditor : DataEditor {
 
     public const string EditorAlias = "Limbo.Umbraco.Separator";
 
+    public const string EditorUiAlias = $"{EditorAlias}.Ui";
+
     #endregion
 
     #region Constructors
