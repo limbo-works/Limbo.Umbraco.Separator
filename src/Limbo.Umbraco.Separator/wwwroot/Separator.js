@@ -11,8 +11,8 @@ export class LimboSeparatorElement extends UmbElementMixin(LitElement) {
     constructor() {
         super();
         this.consumeContext(UMB_PROPERTY_CONTEXT, (ctx) => {
-            this.observe(ctx.label, (v) => (this._label = v ?? ""));
-            this.observe(ctx.description, (v) => (this._description = v ?? ""));
+            if (ctx.label) this.observe(ctx.label, (v) => (this._label = v ?? ""));
+            if (ctx.description) this.observe(ctx.description, (v) => (this._description = v ?? ""));
         });
     }
 
